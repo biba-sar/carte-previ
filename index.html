@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en EN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      width: 100%;
+      height: 80vh;
+      background-color: hsl(47, 88%, 63%);
+      margin: 100px auto;
+    }
+    .card{
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 12px;
+      border: 2px solid black;
+      align-items: center;
+      padding: 20px 15px 0 15px;
+      box-shadow: 5px 5px 15px rgb(0, 0, 75);
+    }
+    .card-image img{
+      width: 100%;
+      max-width: 350px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    .card-image button{
+      background-color: hsl(47, 88%, 63%);
+      color: black;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-weight: bold;
+    }
+    .card-content h4{
+      color: hsl(0, 0%, 42%);
+      padding: 12px 0;
+      font-weight: 600;
+
+    }
+    .card-content h2{
+      font-weight: 800;
+      margin-bottom: 15px;
+      font-family: 'poppins', sans-serif;
+    }
+    .card-content p{
+      font-size: 16px;
+      color: hsla(0, 0%, 42%, 0.911);
+      line-height: 22px;
+      padding-bottom: 15px;
+      font-weight: 500;
+    }
+    .card-profile{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 15px;
+    }
+    .card-profile img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .card-profile h4{
+      color: black;
+      font-weight: 1000;
+
+    }
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="card">
+      <div class="card-image">
+        <img src="assets/images/illustration-article.svg" alt=""> <br>
+        <button>Learning</button>
+      </div>
+      <div class="card-content">
+        <h4>Published 21 Dec 2023</h4>
+        <h2>HTML & CSS foundations</h2>
+        <p>These languages are the backbone of every <br> website, defining structure, content and <br> presentation.</p>
+      </div>
+      <div class="card-profile">
+        <img src="assets/images/image-avatar.webp" alt="profil-person">
+        <h4>Greg Hooper</h4>
+      </div>
+
+    </div>   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/biba-sar">Abibatou</a>.
+  </div>
+</body>
+</html>
